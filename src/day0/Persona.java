@@ -1,3 +1,5 @@
+package day0;
+
 public class Persona {
     private long codice ;
     private String nome ;
