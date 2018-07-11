@@ -1,0 +1,6 @@
+1 Costruire secondo i criteri della programmazione ad oggetti un programma che modellizzi lo scenario seguente:
+Si devono gestire gli allenamenti di ciclisti in un social network. Pertanto il programma dovrà essere in grado di
+memorizzare il profilo degli atleti e le proprie sessioni (massimo 10 per atleta). La sessione è identificata dai
+seguenti attributi: nome, durata, chilometri effettuati). L' atleta è identificato da: nome, cognome e tiene traccia
+delle sessioni sostenute (massimo 10 come già detto). Dovrà essere possibile settare e leggere ogni attributo delle
+entità presenti. Inoltre L'atleta dovrà fornire un metodo che restituisca il totale dei chilometri effettuati.

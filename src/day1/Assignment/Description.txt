@@ -1,0 +1,12 @@
+Esercizio riassuntivo delle prime 4 lezioni: Modellizzare il seguente scenario: si deve gestire l' entità Portafoglio.
+Un Portafoglio sarà identificato da una Persona propietaria, Una Lista di Carte di credito, Una lista di banconote.
+Le carte di credito avranno iban e saldo disponibile. Le banconote saranno descritte dalla taglia e dall' anno di
+stampa e valuta (set che consideriamo: USD - EURO - SGD). il portafoglio dovrà fornire tutti i metodi per inserire e
+rimuovere carte di credito e banconote (metodo add(banconota b) e metodo add(Carta c)). Inoltre dovrà forinre un metodo
+che offra la possibilità di aggiungere denaro a un preciso iban (solo se la carta è presente) e rimuovere denaro a un
+preciso iban (solo se la carta è presente e ci sono abbastanza soldi per concludere la transazione). Per semplicità si
+considerino i soldi delle carte in euro. Il portafoglio dovrà avere un metodo che ritorni la somma di denaro
+disponibile nella valuta richiesta (cash(Valuta)) e un metodo che calcoli il totale dei soldi nella valuta desiderata
+(totalCashIn(Valuta)). esempio ho 10 euro e 5 usd, il metodo count(EUR) ritorna 10 e count(USD) 5,
+il metodo total(Eur) ritorna 14,28 euro,
+il metodo totalCashIn(Usd) 16.68 usd. extra: mantenere ordinata la lista delle carte di modo da trovare in testa la più carica.
