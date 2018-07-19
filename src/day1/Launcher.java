@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Launcher {
     public static void main(String[] args) {
+        //output handler
         OutputHandler.stampa("ciao") ;
         OutputHandler.stampa("ciao2",10);
         List l=new ArrayList();
